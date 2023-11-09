@@ -1,0 +1,9 @@
+CALL atualizar_informacoes_cliente(
+    1,  -- id_cliente
+    2,  -- id_agencia
+    'NovoPrimeiroNome',
+    'NovoSobrenome',
+    987654321
+);
+
+select * from clientes where id_cliente = 1;
