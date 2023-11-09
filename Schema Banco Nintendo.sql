@@ -33,7 +33,8 @@ primeiro_nome VARCHAR(255),
 sobrenome VARCHAR(255),
 telefone INT,
 cpf INT ,
-ident INT
+ident INT,
+saldo NUMERIC DEFAULT 0
 );
 
 
