@@ -1,1 +1,10 @@
+SELECT * FROM CLIENTES WHERE ID_CLIENTE = 1;
 
+INSERT INTO PAGAMENTO (id_agencia, id_cliente, id_banco, forma_pgto, data_pgto, hota_pgto, valor)
+VALUES (1, 1, 1, 1, '2023-11-09', '14:00:00', 150.00);
+
+INSERT INTO EMPRESTIMO (id_cliente, id_banco, valor_parc, valor_emp, quant_parc)
+VALUES (1, 1, 1000.00, 5000.00, 12);
+
+INSERT INTO SAQUE (id_agencia, id_cliente, data, hora, valor)
+VALUES (1, 1, '2023-11-09', '12:30:00', 200.00);
